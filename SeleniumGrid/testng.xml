@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.seleniumgrid.day4.SeleniumGridTests"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    
+     <test name="GRID TEST WITH BROWSER FF">
+
+	    <parameter name ="browserType" value="firefox"/>
+
+	        <classes>
+
+	            <class name ="com.seleniumgrid.day4.SeleniumGridTests"/>
+
+	        </classes>
+
+	    </test>
+
+	    <test name="GRID TEST WITH  BROWSER IE">
+
+	    <parameter name ="browserType" value="internet explorer"/>
+
+           <classes>
+
+	            <class name ="com.seleniumgrid.day4.SeleniumGridTests"/>
+
+	        </classes>
+
+	    </test>
+	    
+	    <test name="GRID TEST WITH  BROWSER CHROME">
+
+	    <parameter name ="browserType" value="chrome"/>
+
+           <classes>
+
+	            <class name ="com.seleniumgrid.day4.SeleniumGridTests"/>
+
+	        </classes>
+
+	    </test>
+</suite> <!-- Suite --> 

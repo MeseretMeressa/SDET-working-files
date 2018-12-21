@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="98539" started-at="2018-12-20T20:36:25Z" finished-at="2018-12-20T20:38:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="98539" started-at="2018-12-20T20:36:25Z" finished-at="2018-12-20T20:38:03Z">
+      <class name="com.sdettraining.day4.C_19_3_DDT_DB">
+        <test-method status="PASS" signature="tc_Login()[pri:0, instance:com.sdettraining.day4.C_19_3_DDT_DB@2ef5e5e3]" name="tc_Login" duration-ms="98488" started-at="2018-12-20T20:36:25Z" finished-at="2018-12-20T20:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_Login -->
+      </class> <!-- com.sdettraining.day4.C_19_3_DDT_DB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
